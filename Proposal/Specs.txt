@@ -1,0 +1,29 @@
+Specifications
+
+Resolution = 6bits
+Reference Voltage = 1V
+Sampling Rate = 1MS/s => Time = 1/F = 1µs
+Input Range = 0 - 1V
+ADC Architecture = SAR
+
+
+
+
+Proposed Architecture 
+
+a block diagram
+
+then 
+DAC - we will use a capacitive DAC => CDAC
+Comparator - StrongArm 
+Sample and Hold 
+clock signal
+SAR logic block
+
+cd SAR_ADC
+pdflatex proposal.tex
+
+rebuilds with everything as many times for everything to show 
+latexmk -pdf -outdir=build proposal.tex
+
+
